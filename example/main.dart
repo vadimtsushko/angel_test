@@ -28,7 +28,7 @@ class _FakeExecutor extends QueryExecutor {
     print(
         '_FakeExecutor received query: $query and values: $substitutionValues');
     return [
-      [1, 'Rich', 'Person', 100000.0, now, now]
+      [1, 'asdfasdqwerqwerqwe', 'Rich', 'Person', 100000.0, now, now]
     ];
   }
 
